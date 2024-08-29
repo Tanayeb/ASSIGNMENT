@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Questions related to String Methods || 3rd</title>
+    <style>
+          body {
+          background: black;
+          color: aqua;
+     }
+
+     h1{
+          text-align: center;
+     }
+    </style>
+</head>
+<body>
+    <h1>Dynamic Message using Javascript</h1>
+
+    <script>
+        
+        var favoriteLanguage = prompt('What is your favorite programming language?');
+        var userName = prompt('What is your name?');
+        var startYear = prompt('What year did you start learning this language?');
+
+
+        favoriteLanguage = favoriteLanguage.trim();
+        userName = userName.trim();
+        startYear = startYear.trim();
+
+        var message = `${userName}, you have been coding in ${favoriteLanguage} since ${startYear}.`;
+
+
+        console.log(message);
+    </script>
+</body>
+</html>
